@@ -1,0 +1,15 @@
+Notes for the user-story PRQDF-08
+
+As the DMPJ Organizer, I would like you to have your own Github repo so that you can share code with the other folks.
+Be sure you have installed Git on your machine, and understand how it works. See the ticket "Understand Git".
+-- Create a public repo called DMPJ. You will want it on Github, and your local machine, so that you can push your local work to Github.
+
+-- As the first directory in the repo, create a directory named ./user-stories/{this-project}-6. So, if your project abbreviation is FOO, your directory would be ./user-stories/FOO?-6.
+
+-- For each user story you work on, you will create a directory like this.
+(For user story 17, the directory would be FOO?-17.)For this user story, commit a file named name.txt, in this directory.
+It should have a single line, containing your name.
+The path to that file is then ./dmpj/user-stories/{this-project}-6/name.txt.
+This is how you will arrange the files for all of the user stories you work on.
+The root directory is dmpj, and inside the user-stories directory, you will have a directory for each user story.
+Within that folder, are any files relevant to that user story.

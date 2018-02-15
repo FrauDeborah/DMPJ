@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exercises from Learn HTML, Advanced Text Formatting</title>
+    <meta name="author" content="Deborah">
+    <meta name="description" content="Exercises from Learn HTML, Advanced Text Formatting on developer.mozilla.">
+  </head>
+  <body>
+
+    <h1>Learn HTML, Advanced Text Formatting</h1>
+    <p>The samples show information from the <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting">Mozilla HTML tutorial</a> page on Advance Text Formatting</p>
+
+    <!-- Sample discription list -->
+    <h2>Definition Lists</h2>
+    <p> The following shows how to make a list of definitions using &ltdl&gt,&ltdt&gt and &ltdd&gt elements.</p>
+    <dl>
+      <dt>&ltdl&gt</dt> <dd>description list is the element wrapping the entire list</dd>
+      <dt>&ltdt&gt</dt> <dd>descriptiom term is the element wrapping what is to be defined </dd>
+      <dt>&ltdd&gt</dt> <dd>description definiition is the element wrapping the actual explanation</dd>
+    </dl>
+
+    <h2>Blockquotes</h2>
+    <!-- Sample blockquote from lesson-->
+    <!-- interesting that the cite is not displayed -->
+    <p> Blockquote example with <strong>no</strong> citation displayed.</p>
+    <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+      <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+      Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+    </blockquote>
+    <p> Blockquote example with citation displayed by adding a link.</p>
+
+    <p>According to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+      <cite>MDN blockquote page</cite></a>:
+      </p>
+
+      <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+        <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+          Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+        </blockquote>
+
+    <h2>Inline Quotes</h2>
+    <!-- Sample inline quote uses q -->
+    <p> Inline quote example with <strong>no</strong> citation displayed.</p>
+    <p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
+        for short quotations that don't require paragraph breaks.</q></p>
+
+    <p> Inline quote example with citation displayed.</p>
+    <!-- example way to get the citation to appear on display-->
+
+    <p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
+          for short quotations that don't require paragraph breaks.</q> -- <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+            <cite>MDN q page</cite></a>.</p>
+
+
+    <!-- active learning section -->
+    <h2>Active Learning Quotes - Who said that?</h2>
+    <p>Hello and welcome to my motivation page. As <a href="http://www.brainyquote.com/quotes/authors/c/confucius.html"><cite>Confucius</cite></a> once said:</p>
+
+    <blockquote cite="http://www.brainyquote.com/quotes/authors/c/confucius.html">
+      <p>It does not matter how slowly you go as long as you do not stop.</p>
+      </blockquote>
+
+      <p>I also love the concept of positive thinking, and <q cite="http://www.affirmationsforpositivethinking.com/index.htm">The Need To Eliminate Negative Self Talk</q> (as mentioned in <a href="http://www.affirmationsforpositivethinking.com/index.htm"><cite>Affirmations for Positive Thinking</cite></a>.)</p>
+
+    <h2>Abbreviations</h2>
+    <p>Sample Abbreviations using &ltabbr&gt. Use attribute title="expansion of abbrevaiton"</p>
+    <!-- note on my laptop the definition was slow to appear -->
+    <p>We use <abbr title="Hypertext Markup Language">HTML</abbr> to structure our web documents.</p>
+    <p>I think <abbr title="Reverend">Rev.</abbr> Green did it in the kitchen with the chainsaw.</p>
+    <p><abbr title="National Aeronautics and Space Administration.">NASA</abbr> sure does some exciting work.</p>
+
+    <h2>Address</h2>
+    <p>Use contact address to indicate you wrote the page</p>
+    <address>
+      <p>Deborah, Denver, Colorado, USA</p>
+    </address>
+
+
+    <h2>Superscript and Subscript</h2>
+
+    <dl>
+      <dt>&ltsup&gt<dt> <dd>supercript formating like y=x<sup>2</sup>+ x + 3</dd>
+      <dt>&ltsub&gt<dt> <dd>subscript formating like x<sub>2</sub></dd>
+    </dl>
+
+    <h2>Representing Computer Code</h2>
+    <dl>
+      <dt>&ltcode&gt</dt> <dd>For marking up generic pieces of computer code</dd>
+      <dt>&ltpre&gt</dt> <dd>For retaining whitespace (generally code blocks)</dd>
+      <dt>&ltvar&gt</dt> <dd>For specifically marking up variable names</dd>
+      <dt>&ltkbd&gt</dt> <dd>For marking up keyboard (and other types of) input entered into the computer</dd>
+      <dt>&ltsamp&gt</dt> <dd>For marking up the output of a computer program</dd>
+    </dl>
+
+    <h2>Marking up times and dates</h2>
+    <p>How to markup time using &lttime&gt so a computer can understand it. For example, so a calenadar event can be added.</p>
+    <time datetime="2016-01-20">20 January 2016</time>
+    <p>Now doesn't that example look strange with a date for time.</p>
+
+<p>That's all folks!</p>
+
+</html>

@@ -1,0 +1,71 @@
+    Error: End tag li implied, but there were open elements.
+
+    From line 21, column 7; to line 21, column 10
+
+    nd??      <li>Badly 
+
+    Error: Unclosed element strong.
+
+    From line 19, column 47; to line 19, column 54
+
+    lement is <strong>not cl
+
+    Error: End tag strong violates nesting rules.
+
+    From line 21, column 149; to line 21, column 157
+
+    mphasised?</strong> what 
+
+    Error: End tag li implied, but there were open elements.
+
+    From line 23, column 7; to line 23, column 10
+
+    m>??      <li>Unclos
+
+    Error: End of file reached when inside an attribute value. Ignoring tag.
+
+    At line 26, column 7
+
+     </body>?</html>
+
+    Error: End of file seen and there were open elements.
+
+    From line 23, column 98; to line 26, column 7
+
+     example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a> ?    </ul>?  </body>?</html>
+
+    Error: Unclosed element ul.
+
+    From line 18, column 5; to line 18, column 8
+
+    TML???    <ul>?     
+
+Document checking completed.
+Source
+
+    <!DOCTYPE html>?
+    <html>?
+      <head>?
+        <meta charset="utf-8">?
+    ?
+        <title>HTML debugging examples</title>?
+    ?
+        <!--[if lt IE 9]>?
+          <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>?
+        <![endif]-->?
+      </head>?
+    ?
+      <body>?
+        <h1>HTML debugging examples</h1>?
+    ?
+        <p>What causes errors in HTML??
+    ?
+        <ul>?
+          <li>Unclosed elements: If an element is <strong>not closed properly, then its effect can spread to areas you didn't intend?
+    ?
+          <li>Badly nested elements: Nesting elements properly is also very important for code behaving correctly. <strong>strong <em>strong emphasised?</strong> what is this?</em>?
+    ?
+          <li>Unclosed attributes: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a> ?
+        </ul>?
+      </body>?
+    </html>
